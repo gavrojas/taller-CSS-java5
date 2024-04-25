@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Form Spa</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Spa Generation</h1>
+        </nav>
+    </header>
+    <section class="container">
+        <h2>Contáctanos</h2>
+        <div class="container-registro">
+            <form action="https://formspree.io/f/moqgyzbp" method="POST">
+                <div class="container-input">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombres" id="nombre" placeholder="Escriba su nombre" required><br>
+
+                    <label for="apellido">Apellidos:</label>
+                    <input type="text" name="apellidos" id="apellido" placeholder="Escriba su apellido" required><br>
+
+                    <label for="email">Correo:</label>
+                    <input type="email" name="correo" id="email" placeholder="Escriba su correo"> <br>
+
+                    <label for="cel">Teléfono:</label>
+                    <input type="tel" name="celular" id="cel" placeholder="Escriba su celular"> <br> 
+
+                    <label for="comentario">Deja tu mensaje:</label>
+                    <textarea name="comentario" id="comentario" placeholder="Deja tus comentarios" rows="10" cols="30">
+                    </textarea><br><br>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div> 
+    </section>
+</body>
+</html>

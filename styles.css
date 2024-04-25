@@ -1,0 +1,162 @@
+/* *VARIABLES */
+:root {
+    --backround-h1-color: #FCC0C7;
+    --font-color:#4EBC97;
+    --backround-color:#FFFAFA;
+    --tex-color:#1e1e1e;
+    --h2-color:#99BFAC;
+}
+
+/* *FORMATEAR PÁGINA */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--backround-color);
+}
+
+header {
+    background-color: var(--backround-h1-color);
+    color: var(--font-color);
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+h2 {
+    padding:5px;
+    text-align: center;
+    width: 100%;
+    color: var(--h2-color);
+
+}
+
+.container {
+    margin: 5% 5% 5% 5%;
+
+}
+
+.container-registro {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 5px;
+}
+
+.container-input button {
+    align-self: center;
+}
+
+button {
+    border-radius: 10px;
+    border: 1px solid ;
+    padding: 10px ;
+    font-size: 16px;
+    width: 100px;
+}
+
+@media (min-width:768px) {
+    
+    h2 {
+        padding:20px;
+    }
+
+    .container-registro {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .container-input {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        margin-top: 20px;
+    
+    }
+    
+    .container-input button {
+        align-self: center;
+    }
+    
+    button {
+        border-radius: 10px;
+        border: 1px solid ;
+        padding: 10px ;
+        font-size: 16px;
+        width: 200px;
+    }
+
+    input {
+        width: 400px;
+        height: 40px;
+    }
+}
+
+@media (min-width:1024px) {
+    header {
+        background-color: var(--backround-h1-color);
+        color: var(--font-color);
+        padding: 30px;
+        text-align: center;
+        width: 100%;
+        font-size: 26px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: italic;
+    }
+    h2 {
+        padding:20px;
+        font-size: 32px;
+    }
+
+    .container-registro {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .container-input {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        margin-top: 20px;
+    
+    }
+    
+    .container-input button {
+        align-self: center;
+    }
+    
+    button {
+        border-radius: 10px;
+        border: 1px solid ;
+        padding: 10px ;
+        font-size: 16px;
+        width: 200px;
+    }
+
+    input {
+        width: 600px;
+        height: 60px;
+    }
+}
+
+
+
+
